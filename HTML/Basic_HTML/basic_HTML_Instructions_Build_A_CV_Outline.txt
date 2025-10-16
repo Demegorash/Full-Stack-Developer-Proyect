@@ -1,6 +1,6 @@
 Welcome to freeCodeCamp!
 
-Workshop:  Build a Curriculum Outline https://www.freecodecamp.org/learn/full-stack-developer/workshop-curriculum-outline/step-1
+WORKSHOP:  Build a Curriculum Outline https://www.freecodecamp.org/learn/full-stack-developer/workshop-curriculum-outline/step-1
 
 This workshop will serve as your introduction to HTML and coding in general. You will learn about headings and paragraph elements.
 
@@ -123,229 +123,278 @@ CODE TO DEBUG:
 <h3>Background and Interests<h3/>
 <pp>I enjoy solving puzzles.</pp>
 
-THEORY Understanding HTML Attributes
-In these lessons, you will learn more about HTML (HyperText Markup Language), a markup language for creating web pages.
+LAB Debug a Pet Adoption Page
+Sally, a pet adoption store owner, has built her first web page but there are some issues.
+
+Your job is to fix all of the errors so Sally can continue building her page.
+
+Objective: Fulfill the user stories below and get all the tests to pass to complete the lab.
+
+User Stories:
+
+Sally wants to use an image of some cats but it is not displaying correctly. You will need to fix the following in the img element:
+Replace the href attribute with the correct attribute for the image source.
+Replace the att attribute with the correct attribute representing short, descriptive text for images.
+Remove the </img> closing tag because img elements are void elements and don't have closing tags.
+Sally wants to use some links to direct users to the dog and cat pages. But the links are not working correctly. You will need to fix the following in the a elements:
+Replace both src attributes with the correct attributes used to specify URLs.
+
+1. Your img element should have a src attribute instead of the href attribute.
+Waiting:2. Your img element should have an alt attribute instead of the non-existent att attribute.
+Waiting:3. Your img element should not have a </img> closing tag.
+Waiting:4. Your a element with the text Visit cats page needs to have an href attribute instead of a src attribute.
+Waiting:5. Your a element with the text Visit dogs page needs to have an href attribute instead of a src attribute.
+
+Code:  
+
+<h1>Welcome XYZ Pet Adoption!</h1>
+<p>Consider adopting a pet today. We have cats, dogs, rabbits and more.</p>
+
+<h2>See our cats!</h2>
+<img href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" att="Two tabby kittens sleeping together on a couch."></img>
+
+<h2>Adopt a cat!</h2>
+<a src="/cats">Visit cats page</a>
+
+<h2>Adopt a dog!</h2>
+<a src="/dogs">Visit dogs page</a>
+
+WORKSHOP:  Build a Cat Photo app
+HTML stands for HyperText Markup Language and it represents the content and structure of a web page.
+In this workshop, you will learn how to work with basic HTML elements such as headings, paragraphs, images, links, and lists.
+
+Step 1
+In this workshop, you will continue working with basic HTML elements like headings, paragraphs, and lists by building a cat photo app.
+Begin the workshop by adding an h1 element with the text of CatPhotoApp.
+
+Step 2
+Below the h1 element, add an h2 element with this text:
+Cat Photos
+
+Step 3
+Create a p element below your h2 element and give it the following text:
+Everyone loves cute cats online!
+
+Step 4
+Commenting allows you to leave messages without affecting the browser display. It also allows you to make code inactive. A comment in HTML starts with <!--, contains any number of lines of text, and ends with -->.
+Here is an example of a comment with the TODO: Remove h1:
+Example Code
+<!-- TODO: Remove h1 -->
+Add a comment above the p element with this text:
+TODO: Add link to cat photos
+
+Step 5
+HTML5 has some elements that identify different content areas. These elements make your HTML easier to read and help with Search Engine Optimization (SEO) and accessibility.
+The main element is used to represent the main content of the body of an HTML document. Content inside the main element should be unique to the document and should not be repeated in other parts of the document.
+Example Code
+<main>
+  <h1>Most important content of the document</h1>
+  <p>Some more important content...</p>
+</main>
+Identify the main section of this page by adding a <main> opening tag before the h1 element, and a </main> closing tag after the p element.
+
+Step 6
+In the previous step, you put the h1, h2, comment, and p elements inside the main element. This is called nesting. Nested elements should be placed two spaces further to the right of the element they are nested in. This spacing is called indentation and it is used to make HTML easier to read.
+
+Here is an example of nesting and indentation:
+
+Example Code:
+<main>
+  <h1>Most important content of the document</h1>
+  <p>Some more important content...</p>
+</main>
+The h1 element, h2 element and the comment are indented two spaces more than the main element in the code below. Use the space bar on your keyboard to add two more spaces in front of the p element so that it is indented properly as well.
+
+Step 7
+You can add images to your website by using the img element. img elements have an opening tag without a closing tag. An element without a closing tag is known as a void element.
+
+Add an img element below the p element. At this point, no image will show up in the browser.
+
+Step 8
+HTML attributes are special words used inside the opening tag of an element to control the element's behavior. The src attribute in an img element specifies the image's URL (where the image is located).
+Here is an example of an img element with a src attribute pointing to the freeCodeCamp logo:
+Example Code:
+<img src="https://cdn.freecodecamp.org/platform/universal/fcc_secondary.svg">
+Inside the existing img element, add a src attribute with this URL:
+https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg
+
+Step 9
+All img elements should have an alt attribute. The alt attribute's text is used for screen readers to improve accessibility and is displayed if the image fails to load.
+Here is an example of an img element with an alt attribute:
+Example Code:
+<img src="cat.jpg" alt="A cat">
+Inside the img element, add an alt attribute with this text:
+A cute orange cat lying on its back
+
+Step 10
+You can link to another page with the anchor (a) element.
+Here is an example linking to https://www.freecodecamp.org:
+Example Code:
+<a href="https://www.freecodecamp.org"></a>
+Add an anchor element after the paragraph that links to https://freecatphotoapp.com. At this point, the link won't show up in the preview.
+
+Step 11
+A link's text must be placed between the opening and closing tags of an anchor (a) element.
+Here is an example of a link with the text click here to go to freeCodeCamp.org:
+Example Code:
+<a href="https://www.freecodecamp.org">click here to go to freeCodeCamp.org</a>
+Add the anchor text cat photos to the anchor element. This will become the link's text.
+
+Step 12
+Add the words See more  before the anchor element and  in our gallery after the anchor element.
+
+Step 13
+Add p tags to turn See more <a href="https://freecatphotoapp.com">cat photos</a> in our gallery. into a paragraph.
+
+Step 14
+Turn the existing text cute cats into an anchor element that links to:
+https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg
+
+Step 15
+To open links in a new tab, you can use the target attribute on the anchor (a) element.
+The target attribute specifies where to open the linked document. target="_blank" opens the linked document in a new tab or window.
+Here is the basic syntax for an a element with a target attribute:
+Example Code:
+<a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>
+Add a target attribute with the value _blank to the anchor (a) element's opening tag, so that the link opens in a new tab.
+Add rel="noopener noreferrer" as a security measure to avoid the window.opener fail if not added
+
+Step 16
+Now that you have added the link you can remove the comment.
+
+Step 17
+In previous steps, you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags.
+Here is an example of turning an image into a link:
+Example Code:
+<a href="example-link">
+  <img src="image-link.jpg" alt="A photo of a cat.">
+</a>
+Turn the image into a link by surrounding it with necessary element tags. Use https://freecatphotoapp.com as the anchor's href attribute value.
+
+Step 18
+Before adding any new content, you should make use of a section element to separate the cat photos content from the future content.
+The section element is used to define sections in a document, such as chapters, headers, footers, or any other sections of the document. It is a semantic element that helps with SEO and accessibility.
+Example Code:
+<section>
+  <h2>Section Title</h2>
+  <p>Section content...</p>
+</section>
+Take your h2 element, two p elements, and anchor (a) element and nest them in a section element.
+
+Step 19
+It is time to add a new section. Add a second section element below the existing section element.
+
+Step 20
+Within the second section element, add a new h2 element with the text Cat Lists.
+
+Step 21
+When you add a lower-rank heading element to the page, it's implied that you're starting a new subsection.
+After the last h2 element of the second section element, add an h3 element with this text:
+Things cats love:
+
+Step 22
+To create an unordered list of items, you can use the ul element.
+After the h3 element with the Things cats love: text, add an unordered list (ul) element. Note that nothing will be displayed at this point.
+
+Step 23
+The li element is used to create a list item in an ordered or unordered list.
+Here is an example of list items in an unordered list:
+Example Code:
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+Within the ul element nest three list items to display three things cats love:
+catnip
+laser pointers
+lasagna
+
+Step 24
+After the unordered list, add a new image with a src attribute value set to:
+https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg
+And its alt attribute value to:
+A slice of lasagna on a plate.
+
+Step 25
+The figure element represents self-contained content and will allow you to associate an image with a caption.
+Nest the image you just added within a figure element.
+
+Step 26
+A figure caption (figcaption) element is used to add a caption to describe the image contained within the figure element.
+Here is an example of a figcaption element with the caption of A cute cat:
+Example Code:
+<figure>
+  <img src="image.jpg" alt="A description of the image">
+  <figcaption>A cute cat</figcaption>
+</figure>
+After the image nested in the figure element, add a figcaption element with text set to:
+Cats love lasagna.
+
+Step 27
+To place emphasis on a specific word or phrase, you can use the em element.
+Emphasize the word love in the figcaption element by wrapping it in an emphasis em element.
+
+Step 28
+After the figure element, add another h3 element with the text:
+Top 3 things cats hate:
+
+Step 29
+The code for an ordered list (ol) is similar to an unordered list, but list items in an ordered list are numbered when displayed.
+Below the h3 element, add an ordered list with these three list items:
+flea treatment thunder other cats
+
+Step 30
+After the ordered list, add another figure element.
+
+Step 31
+Inside the figure element you just added, nest an img element with a src attribute set to https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg.
+
+Step 32
+To improve the accessibility of the image you added, add an alt attribute with the text:
+Two tabby kittens sleeping together on a couch.
+
+Step 33
+After the last img element, add a figcaption element with the text Cats hate other cats.
+
+Step 34
+The strong element is used to indicate that some text is of strong importance or urgent.
+In the figcaption you just added, indicate that hate is of strong importance by wrapping it in a strong element.
+
+Step 35
+The footer element is used to define a footer for a document or section. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more.
+After the main element, add a footer element.
+
+Step 36
+Nest a p element with the text No Copyright - freeCodeCamp.org within the footer element.
+
+Step 37
+Turn the existing freeCodeCamp.org text into a link by enclosing it in an anchor (a) element. The href attribute should be set to https://www.freecodecamp.org.
+
+Step 38
+Notice that everything you've added to the page so far is inside the body element. All page content elements that should be rendered to the page go inside the body element. However, other important information goes inside the head element.
+The head element is used to contain metadata about the document, such as its title, links to stylesheets, and scripts. Metadata is information about the page that isn't displayed directly on the page.
+Add a head element above the body element.
+
+Step 39
+The title element determines what browsers show in the title bar or tab for the page.
+Add a title element within the head element using the text below:
+CatPhotoApp
+
+Step 40
+Notice that the entire contents of the page are nested within an html element. The html element is the root element of an HTML page and wraps all content on the page.
+You can also specify the language of your page by adding the lang attribute to the html element.
+Add the lang attribute with the value en to the opening html tag to specify that the language of the page is English.
+
+Step 41
+All pages should begin with <!DOCTYPE html>. This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications.
+<!DOCTYPE html> tells browsers that the document is an HTML5 document which is the latest version of HTML.
+Add this declaration as the first line of the code.
+
+Step 42
+You can set browser behavior by adding meta elements in the head. Here's an example:
+Example Code:
+<meta attribute="value">
+Inside the head element, nest a meta element with a charset attribute set to the value of utf-8. This tells the browser how to encode characters for the page.
+Note that the meta element is a void element.
+With that last change, you have completed the Cat Photo App workshop. Congratulations!
 
-You will learn about HTML's role on the web, and what HTML attributes are.
-
-What Role Does HTML Play on the Web?
-
-HTML, which stands for Hypertext Markup Language, is a markup language for creating web pages. When you visit a website and see content like paragraphs, headings, links, images, and videos; that's HTML.
-
-Here is a small example using HTML elements. Try editing some of the text in the editor and see the changes update in the preview window.
-
-<h1>Main heading element</h1>
-
-<p>I am a paragraph element.</p>
-
-1
-2
-3
-<h1>Main heading element</h1>
-
-<p>I am a paragraph element.</p>
-
-Open Sandbox
-HTML represents the content and structure of a webpage through the use of elements. Most elements will have an opening tag and a closing tag. Sometimes those tags are referred to as start and end tags. In between those two tags, you will have the content. This content can be text or other HTML elements.
-
-Here is another example of a paragraph element. Change the text in the editor to say I love coding! and see the results in the preview window.
-
-<p>I am a paragraph element.</p>
-
-Both opening and closing tags start with a left angle bracket (<), and end with a right angle bracket (>), with the tag name placed between these angle brackets. While HTML tag names are case-insensitive, it is a widely accepted convention and best practice to write them in lowercase.
-
-Here is a closer look at just the opening and closing paragraph tags:
-
-<p>
-</p>
-What distinguishes an opening tag from a closing tag is the forward slash (/) placed immediately after the left angle bracket in a closing tag. Some HTML elements do not have a closing tag. These are known as void elements.
-
-Here is an example of an image element which is a void element:
-
-<img>
-Notice that this image element does not have the closing tag and it does not have any content. Void elements cannot have any content and only have a start tag.
-
-Sometimes you will see void elements that use a / before the > like this:
-
-<img />
-While many code formatters like Prettier, will choose to include the / in void elements, the HTML spec states that the presence of the / "does not mark the start tag as self-closing but instead is unnecessary and has no effect of any kind".
-
-In real world development, you will see both forms so it is important to be familiar with both.
-
-If you wanted to display an image, you will need to include a couple of attributes inside your image element. An attribute is a special value used to adjust the behavior for an HTML element.
-
-Here is an example of an image element with a src attribute. Update the value of the src attribute to "https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" and you will see the image change to two cats peacefully sleeping.
-
-<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" />
-
-The src attribute is used to specify the location for that image. For image elements, it's good practice to include another attribute called the alt attribute. The alt attribute is used to provide short, descriptive text for the images.
-
-Here's an example of an image element with the src and alt attributes. Try breaking the image by updating the src value to "https://.freecodecamp.org/curriculum/cat-photo-app/cats.jpg". You will see the image disappear and only the alt text show.
-
-<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch." />
-
-So, you might be wondering if HTML by itself is enough to build a website. Well, the answer is: it depends. If you're building a small practice project that only displays text and images, HTML alone might be sufficient. However, if you're creating a modern professional website, you will need to have HTML, CSS, and JavaScript.
-
-HTML is for the content and structure. CSS is for styling. JavaScript is for adding interactivity to your web pages. A good analogy for this is to compare HTML, CSS, and JavaScript with a complete building.
-
-HTML represents the blocks, concrete, and irons that make up the walls. It's the foundation that makes the building strong. CSS represents the interior and exterior design that makes the house look beautiful. JavaScript represents the electrical and water system that ensures uninterrupted access to water and electricity.
-
-Questions:
-
-What does HTML stand for?
-
-HyperText Maker Language
-HyperText Marker Language
-HyperText Markdown Language
-HyperText Markup Language
-
-Which of the following is the correct syntax for a closing tag?
-
-<;p>
-<p>
-</p>
-<///p/>
-
-Which of the following is a valid attribute used inside the img element?
-
-src
-bold
-closing
-div
-
-What Are Attributes, and How Do They Work?
-An attribute is a value placed inside the opening tag of an HTML element. Attributes provide additional information about the element or specify how the element should behave. Here is the basic syntax for an attribute:
-
-<element attribute="value"></element>
-The attribute name is followed by an equal sign (=) and a value in quotes. The value can be a string or a number, depending on the attribute.
-
-This first example uses the href and target attributes. The href attribute specifies the URL of a link and the target attribute specifies where to open the link.
-
-Change the href="https://www.freecodecamp.org/news/" to href="https://www.freecodecamp.org". Now when you click on the link in the interactive editor, you will see the freeCodeCamp homepage in a new browser tab.
-
-<a href="https://www.freecodecamp.org/news/" target="__blank">Visit freeCodeCamp</a>
-
-Without the href attribute, the link would not work because there would be no destination URL. So you must include this href attribute to make the link functional. The target="__blank" enables the link to open in a new browser tab. You will learn more about the target attribute in future lessons.
-
-Other common attributes are the src, and alt, or alternative, attribute - which is used to specify the source of an image and provide alternative descriptive text for the image, respectively.
-
-Change the src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" to src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg". Then change the alt="Two tabby kittens sleeping together on a couch." to alt="Two cats running in the dirt.".
-
-<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch." />
-
-Similar to the href attribute, the src attribute is required because it specifies the image file to be displayed. The alt attribute is not required, but it is recommended for accessibility purposes. Accessibility means making sure that everyone, including those with disabilities, can use and understand things like websites, apps, and physical spaces. You will learn more about accessibility in the upcoming lessons.
-
-Some attributes are a little unique with their syntax like the checked attribute.
-
-Try clicking on the checkbox in the preview window to see it alternate between a checked and unchecked state.
-
-<input type="checkbox" checked />
-
-An attribute is a value placed inside the opening tag of an HTML element. Attributes provide additional information about the element or specify how the element should behave. Here is the basic syntax for an attribute:
-
-<element attribute="value"></element>
-The attribute name is followed by an equal sign (=) and a value in quotes. The value can be a string or a number, depending on the attribute.
-
-This first example uses the href and target attributes. The href attribute specifies the URL of a link and the target attribute specifies where to open the link.
-
-Change the href="https://www.freecodecamp.org/news/" to href="https://www.freecodecamp.org". Now when you click on the link in the interactive editor, you will see the freeCodeCamp homepage in a new browser tab.
-
-1
-<a href="https://www.freecodecamp.org/news/" target="__blank">Visit freeCodeCamp</a>
- 
-Without the href attribute, the link would not work because there would be no destination URL. So you must include this href attribute to make the link functional. The target="__blank" enables the link to open in a new browser tab. You will learn more about the target attribute in future lessons.
-
-Other common attributes are the src, and alt, or alternative, attribute - which is used to specify the source of an image and provide alternative descriptive text for the image, respectively.
-
-Change the src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" to src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg". Then change the alt="Two tabby kittens sleeping together on a couch." to alt="Two cats running in the dirt.".
-
-1
-<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch." />
-
-Similar to the href attribute, the src attribute is required because it specifies the image file to be displayed. The alt attribute is not required, but it is recommended for accessibility purposes. Accessibility means making sure that everyone, including those with disabilities, can use and understand things like websites, apps, and physical spaces. You will learn more about accessibility in the upcoming lessons.
-
-Some attributes are a little unique with their syntax like the checked attribute.
-
-Try clicking on the checkbox in the preview window to see it alternate between a checked and unchecked state.
-
-1
-<input type="checkbox" checked />
- 
-In the following example, we have an input element with the type attribute set to checkbox. Inputs are used to collect data from users, and the type attribute specifies the type of input. In this case, this input is a checkbox. You will learn more about how inputs work in the upcoming lessons.
-
-The checked attribute is used to specify that the checkbox should be checked by default. The checked attribute does not require a value. If it is present, the checkbox will be checked by default. If the attribute is not present, the checkbox will be unchecked. This is known as a boolean attribute. You will learn more about booleans in general when you get to the JavaScript section.
-
-Remove the checked attribute from the input in the interactive editor, and you will see that the checkbox is no longer checked by default.
-
-<input type="checkbox" checked />
-
-
-An attribute is a value placed inside the opening tag of an HTML element. Attributes provide additional information about the element or specify how the element should behave. Here is the basic syntax for an attribute:
-
-<element attribute="value"></element>
-The attribute name is followed by an equal sign (=) and a value in quotes. The value can be a string or a number, depending on the attribute.
-
-This first example uses the href and target attributes. The href attribute specifies the URL of a link and the target attribute specifies where to open the link.
-
-Change the href="https://www.freecodecamp.org/news/" to href="https://www.freecodecamp.org". Now when you click on the link in the interactive editor, you will see the freeCodeCamp homepage in a new browser tab.
-
-1
-<a href="https://www.freecodecamp.org/news/" target="__blank">Visit freeCodeCamp</a>
-
-Without the href attribute, the link would not work because there would be no destination URL. So you must include this href attribute to make the link functional. The target="__blank" enables the link to open in a new browser tab. You will learn more about the target attribute in future lessons.
-
-Other common attributes are the src, and alt, or alternative, attribute - which is used to specify the source of an image and provide alternative descriptive text for the image, respectively.
-
-Change the src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" to src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg". Then change the alt="Two tabby kittens sleeping together on a couch." to alt="Two cats running in the dirt.".
-
-1
-<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch." />
-
-Similar to the href attribute, the src attribute is required because it specifies the image file to be displayed. The alt attribute is not required, but it is recommended for accessibility purposes. Accessibility means making sure that everyone, including those with disabilities, can use and understand things like websites, apps, and physical spaces. You will learn more about accessibility in the upcoming lessons.
-
-Some attributes are a little unique with their syntax like the checked attribute.
-
-Try clicking on the checkbox in the preview window to see it alternate between a checked and unchecked state.
-
-1
-<input type="checkbox" checked />
-
-In the following example, we have an input element with the type attribute set to checkbox. Inputs are used to collect data from users, and the type attribute specifies the type of input. In this case, this input is a checkbox. You will learn more about how inputs work in the upcoming lessons.
-
-The checked attribute is used to specify that the checkbox should be checked by default. The checked attribute does not require a value. If it is present, the checkbox will be checked by default. If the attribute is not present, the checkbox will be unchecked. This is known as a boolean attribute. You will learn more about booleans in general when you get to the JavaScript section.
-
-Remove the checked attribute from the input in the interactive editor, and you will see that the checkbox is no longer checked by default.
-
-1
-<input type="checkbox" checked />
-
-There are several common boolean attributes you will encounter in HTML, such as disabled, readonly, and required. These attributes are used to specify the state of an element, such as whether it is disabled, read-only, or required.
-
-Here is an example of a text input element that is disabled by default. Try clicking on the input element in the preview window. Now remove the disabled attribute from the input element and you will see that the input is no longer disabled by default. You should now be able to click on it and type inside the field.
-
-<input type="text" disabled>
-
-HTML has many attributes that can be used to customize the behavior and appearance of elements on a webpage. Understanding how to use attributes is essential for creating interactive and accessible web content. Over the next few lessons, you will learn about more HTML attributes and how to use them effectively in your web development projects.
-
-Questions:
-
-Which of the following is an example of a boolean attribute?
-
-src
-href
-disabled
-alt
-
-What is the role of an attribute in HTML?
-
-Attributes provide additional information and help define the behavior for HTML elements.
-Attributes change the background color of an element.
-Attributes change the font size of an element.
-Attributes add JavaScript functionality to an element.
-
-Which of the following is the correct syntax for a boolean attribute?
-
-<input type="checkbox" checked>
-<input type="checkbox" checked="on">
-<input type="checkbox" checked="off">
-<input type="checkbox" checked="isChecked">
