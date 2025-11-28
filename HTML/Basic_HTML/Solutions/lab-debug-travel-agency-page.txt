@@ -1,0 +1,46 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Costa Rica: beaches, volcanoes, rainforest and adventure. Book tours, hotels and personalized travel packages with our expert Costa Rica travel agency.">
+    <title>Travel Agency Page</title>
+</head>
+<body>
+    <h1>Discover the Best Travel Destinations in Costa Rica</h1>
+    <p>Discover unforgettable travel opportunities across Costa Rica, from pristine beaches and lush rainforests to towering volcanoes and vibrant wildlife. Whether you're looking for adventure, relaxation, or a personalized travel experience, our expert team will help you explore the best destinations and create the perfect vacation.</p>
+    <h2>Packages</h2>
+    <p>We offer a variety of travel packages designed to fit every style of vacation—from adventure tours and beach getaways to eco-friendly experiences and fully customized itineraries. Explore our curated packages and find the perfect way to enjoy Costa Rica your way.</p>
+    <ul>
+        <li><a href="https://www.freecodecamp.org/learn" target="_blank" rel="noopener noreferrer">Group Travels</a></li>
+        <li><a href="https://www.freecodecamp.org/learn" target="_blank" rel="noopener noreferrer">Private Tours</a></li>
+    </ul>
+    <h2>Top Itineraries</h2>
+
+    <figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="Costa Rica Beach Adventures">
+        </a>
+        <figcaption>A great temple in San José Centro</figcaption>
+    </figure>
+
+    <figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="Volcano Tours in Costa Rica">
+        </a>
+        <figcaption>Our quite place to think</figcaption>
+    </figure>
+
+    <figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Rainforest Experiences">
+        </a>
+        <figcaption>This is a great sea to study</figcaption>
+    </figure>
+</body>
+</html>
+
+** end of index.html **
+
