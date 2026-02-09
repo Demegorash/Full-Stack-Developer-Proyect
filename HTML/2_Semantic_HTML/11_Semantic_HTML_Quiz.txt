@@ -1,0 +1,23 @@
+Semantic HTML Quiz
+To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+
+1. What is presentational HTML? Presentational HTML uses elements to control the appearance of content, rather than its meaning or structure.
+2. What is the role of the pre element? It is used to represent preformatted text.
+3. What is the role of the h1 element? It defines the main heading of a webpage, indicating its primary topic.
+4. What is the role of the address element? It is used to represent contact information for a section on a web page.
+5. Which of the following elements holds no semantic meaning? div
+6. Which of the following elements is used to represent a specific moment in time? time
+7. What is a typical use case of the ruby element? It is used to show the pronunciation of East Asian characters.
+8. Which element is used to highlight keywords in summaries or product names in reviews? b
+9. What is the role of the u element? It is used to represent inline text that has non-textual annotation applied.
+10. Which of the following elements is used to represent an extended quotation? blockquote
+11. Which of the following elements is used to provide a description, or definition for the term inside a description list? dd
+12. Which of the following elements is typically used with the code element? pre
+13. Which of the following attributes is used to translate dates and times into a machine-readable format? datetime
+14. Why is it important to not skip heading levels? Skipping heading levels can confuse screen readers and hinder content accessibility by disrupting the logical content hierarchy.
+15. Which of the following is a deprecated presentational HTML element? font
+16. Which of the following elements is used to represent navigation links? nav
+17. Which of the following elements represents a description term inside a description list? dt
+18. What is the role of the i element? It is used to represent idiomatic text, technical terms, and taxonomical designations.
+19. Which of the following elements is used to emphasize text? em
+20. Which of the following attributes is used to specify the source or reference of the quoted content for a blockquote? cite
