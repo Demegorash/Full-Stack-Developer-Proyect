@@ -1,0 +1,34 @@
+HTML Tables and Forms Quiz
+To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+
+1. Which of the following attributes is used to specify the URL where the form data should be sent? action
+2. Which two elements are used to specify a row and a row header in a table? The tr element is used for rows and the th element is used for the header.
+3. What is the td element used for? It is used to define a table cell.
+4. What is the function of the colspan attribute? It defines the number of columns a table cell should span.
+5. What is the role of the placeholder attribute? It's used to provide a hint for an input field.
+6. What is the purpose of the thead element? It's used to group the header content in an HTML table.
+7. Which of the following is an example of explicit form association between labels and inputs? <label for="age">Age:</label> <input type="number" id="age" name="age">
+8. What is an HTML validator used for? A validator is a tool that checks the syntax of HTML code to ensure it is valid.
+9. Which element is used to define a cell in a table? td
+10. Which of the following is a tool that allows you to inspect and modify the HTML structure of a web page? DOM inspector.
+11. Which of the following is the correct way to group related input fields?
+"<form>
+  <fieldset>
+    <legend>User information</legend>
+
+    <label for="name">Name: </label>
+    <input type="text" id="name" />
+
+    <label for="email">Email: </label>
+    <input type="email" id="email" />
+  </fieldset>
+</form>"
+12. Which of the following is used to specify that an input field is read-only? readonly
+13. Which attribute specifies that an input must be filled out before submitting the form? required
+14. What are Devtools used for? These tools are built directly into the browser and are used to help you debug, profile, and analyze web pages.
+15. Which of the following is the correct way to disable an input? <input type="checkbox" disabled />
+16. Which of the following is a valid value for the type attribute? <input type="email" />
+17. Which of the following is the correct use of the size attribute? <input id="fullName" type="text" size="10" />
+18. Which of the following attributes are used to specify the minimum and maximum number of characters required in an input field? minlength and maxlength
+19. Which of the following button examples does NOT use a correct value for the type attribute? <button type="btn">Example Btn</button>
+20. Which of the following attributes is used to specify the value for a button? value
