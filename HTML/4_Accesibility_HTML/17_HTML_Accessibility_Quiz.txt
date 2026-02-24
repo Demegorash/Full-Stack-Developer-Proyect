@@ -1,0 +1,36 @@
+HTML Accessibility Quiz
+To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+
+1. What is accessibility? Accessibility is a set of standardized practices to ensure your web applications can be used by everyone, including those with disabilities.
+2. Which of the following is a good example for proper heading level structure?
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+3. What are the six main categories of ARIA roles? Document Structure, Landmark, Window, Abstract, Widget, and Live Region.
+4. What is the correct way to add an alt attribute to an img element? <img src="cat.jpg" alt="cat running">
+5. What does WAI-ARIA stand for? Web Accessibility Initiative - Accessible Rich Internet Applications.
+6. What is the role of the aria-hidden attribute? This attribute is used to hide an element from assistive technologies.
+7. Which attribute makes elements focusable and defines the relative order in which they are navigated using the keyboard? tabindex
+8. Why is it a good practice to include the caption element inside an HTML table? It is helpful for users to quickly understand the table's purpose and content.
+9. What is the difference between the attributes aria-label and aria-labelledby? The aria-labelledby attribute allows you to give an element an accessible name by referencing an existing element on the page while the aria-label attribute allows you to define the name in the attribute itself.
+10. Which of the following attributes provides additional information about an element to screen reader users by referencing existing content on the page? aria-describedby
+11. Which of the following attributes is used to define a keyboard shortcut for an element? accesskey
+12. Which of the following examples is the correct way to associate a label with an input element?
+<form>
+  <label for="name">Your Name</label>
+  <input type="text" id="name" />
+</form>
+13. How does a screen magnifier help visually-impaired users navigate web pages? A screen magnifier helps visually-impaired users navigate web pages by allowing them to zoom in and out.
+14. Which of the following is the correct use of aria-describedby to provide more context about a button's action?
+<button aria-describedby="delete-message">Delete</button>
+
+<p id="delete-message">Warning! All deletions are permanent.</p>
+15. What is the difference between WCAG and WAI-ARIA? WCAG provides general guidelines for web accessibility, while WAI-ARIA offers specific rules for making dynamic and interactive content accessible for users of assistive technologies.
+16. Which of the following is a common use case for using the aria-hidden attribute? Icons and images that only have a decorative purpose.
+17. What is the purpose of the role attribute? To specify the type and purpose of an element, allowing assistive technologies to better understand how the element should be interpreted and interacted with.
+18. Why is it important to use descriptive link text for links? To ensure that everyone, including users of assistive technology understand the purpose of the link.
+19. Which of the following is a best practice for making audio and video content accessible? Providing captions and transcripts for audio and video content to make it accessible to people with hearing impairments.
+20. What are the four principles behind the Web Content Accessibility Guidelines? Perceivable, Operable, Understandable, and Robust.
