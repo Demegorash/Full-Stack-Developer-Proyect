@@ -1,0 +1,24 @@
+Computer Basics Quiz
+
+To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+
+1. Which of the following is a basic part of the computer? The central processing unit
+2. What is a pointing device for a computer? A mouse or touchpad
+3. What is a type of ISP provider? Tier 1
+4. What is a best practice when naming files for a web application? Using hyphens instead of spaces.
+5. Which of the following is a common file type when working with web applications? .css
+6. What is a common file type for a video file? .mp4
+7. Which of the following types is commonly used for image files? .svg
+8. Microsoft Edge is the default web browser of which operating system? Windows
+9. What is a search engine? A web based tool for searching information on the internet.
+10. Which of the following is NOT a type of browser? GitHub
+11. Which of the following is NOT a cloud-based hosting service for repositories? Ona
+12. Which of the following is not primarily a part of an integrated development environment? A tool for storing code.
+13. What is a best practice for naming files? Using a descriptive name for each file.
+14. What is the built-in way you can use to search for files on your computer? The file explorer
+15. What is a common search strategy to search for file types? filetype:
+16. What is the default page for a website? index.html
+17. Which file managers can you use to create, move, and delete files? Explorer or Finder
+18. What is Git? A version control system for tracking changes and collaborating with others.
+19. What is random access memory? A temporary storage location for the computer's central processing unit.
+20. Which file format is used to compress files? ZIP
