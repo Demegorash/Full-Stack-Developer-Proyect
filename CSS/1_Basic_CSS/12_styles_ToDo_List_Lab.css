@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: block;
+}
+
+.container {
+    max-width: 400px;
+    background-color: rgb(219, 231, 242);
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.todo-list {
+    margin: 0;
+}
+
+.todo-list li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    padding: 10px;
+    background-color:#e5f1e5;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.todo-list li:hover {
+    transform: scale(1.02);
+}
+
+input:checked + label {
+    text-decoration: line-through;
+    color: gray;
+}
+
+a.sub-item-link {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.sub-item-link:link {
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sub-item-link:visited {
+    color: purple;
+}
+
+.sub-item-link:hover {
+    text-decoration: underline;
+}
+
+.sub-item-link:focus {
+    color: green;
+    outline: auto;
+}
+
+.sub-item-link:active {
+    color: red;
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}
+
+.sub-item {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;  
+}

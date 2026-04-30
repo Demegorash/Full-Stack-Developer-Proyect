@@ -1,0 +1,22 @@
+CSS Fundamentals Quiz
+
+1. What does CSS stand for? Cascading Style Sheets
+2. Which of the following is a correct CSS rule? p {color: red;}
+3. What does <meta name="viewport"> do? It controls the shape and size of a web page on different screen sizes.
+4. Which syntax is correct to use inline CSS? <p style="color: blue;"></p>
+5. When using internal CSS, where is the style element placed within the HTML? In the head element.
+6. Which rule is correct for setting the width and height in CSS? width: 50px; height: 50px;
+7. Which selector correctly targets h1 elements only when inside a div? div h1 {}
+8. Which selector is correct to target direct children of a footer? footer > ul {}
+9. Which selector is correct to target the next sibling of an img? img + h1 {}
+10. Which selector is correct to target all siblings preceded by an img element? img ~ caption {}
+11. What statement is TRUE about block-level elements?Block-level elements start on a new line and take up the full width of their container.
+12. What statement is TRUE when using the inline-block value? Elements retain inline flow but allow setting width and height.
+13. Given the following selectors, which has the highest specificity? #id
+14. Given the following selectors, which has the lowest specificity? h1
+15. What does the * selector do? Targets all elements on the page. 
+16. What does !important do in CSS? It overrides any other values applied to the property for that selector.
+17. How does the CSS Cascade algorithm work? It determines styles of the element based on specificity and order of declaration.
+18. Which rule applies 32px of margin to all sides? margin: 32px;
+19. Which rule applies 24px padding to the top and bottom? padding: 24px 0;
+20. For padding: 10px 20px 30px 40px, what is the correct order of values? Top, Right, Bottom, Left.
